@@ -1,0 +1,75 @@
+.top {
+  padding-block: 50px 1px;
+}
+body {
+  max-width: 40em;
+  margin: 0 auto;
+  padding: 5px;
+  font-family: ui-monospace, monospace;
+  font-size: 18px;
+  line-height: 1.6em;
+  color: black;
+}
+h1 {
+display: block;
+font-size: 2em;
+margin-block-start: 0.67em;
+margin-block-end: 0.67em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+font-weight: bold;
+}
+h2 {
+display: block;
+font-size: 1.5em;
+margin-block-start: 0.83em;
+margin-block-end: 0.83em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+font-weight: bold;
+}
+h3 {
+display: block;
+font-size: 1.2em;
+margin-block-start: 0.83em;
+margin-block-end: 0.83em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+font-weight: bold;
+}
+ /* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: orange;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+} 
+
+/* Text Decoration */
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}

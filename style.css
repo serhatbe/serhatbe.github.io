@@ -1,75 +1,174 @@
-.top {
-  padding-block: 50px 1px;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+
+:root {
+    --width: 720px;
+    --font-main: 'Roboto Mono', monospace;
+    --font-secondary: 'Roboto Mono', monospace;
+    --font-scale: 1em;
+    --background-color: #fff;
+    --heading-color: #232333;
+    --text-color: #232333;
+    --link-color: #232333;
+    --visited-color: #232333;
+    --main-color: #ff0000;
+    --code-background-color: #f2f2f2;
+    --code-color: #222;
+    --blockquote-color: #222;
 }
+
 body {
-  max-width: 40em;
-  margin: 0 auto;
-  padding: 5px;
-  font-family: ui-monospace, monospace;
-  font-size: 18px;
-  line-height: 1.6em;
-  color: black;
-}
-h1 {
-display: block;
-font-size: 2em;
-margin-block-start: 0.67em;
-margin-block-end: 0.67em;
-margin-inline-start: 0px;
-margin-inline-end: 0px;
-font-weight: bold;
-}
-h2 {
-display: block;
-font-size: 1.5em;
-margin-block-start: 0.83em;
-margin-block-end: 0.83em;
-margin-inline-start: 0px;
-margin-inline-end: 0px;
-font-weight: bold;
-}
-h3 {
-display: block;
-font-size: 1.2em;
-margin-block-start: 0.83em;
-margin-block-end: 0.83em;
-margin-inline-start: 0px;
-margin-inline-end: 0px;
-font-weight: bold;
-}
- /* unvisited link */
-a:link {
-  color: red;
+    font-family: var(--font-secondary);
+    font-size: var(--font-scale);
+    margin: auto;
+    padding: 20px;
+    max-width: var(--width);
+    text-align: left;
+    background-color: var(--background-color);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: var(--text-color);
 }
 
-/* visited link */
-a:visited {
-  color: green;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-main);
+    color: var(--heading-color);
 }
 
-/* mouse over link */
-a:hover {
-  color: orange;
-}
-
-/* selected link */
-a:active {
-  color: blue;
-} 
-
-/* Text Decoration */
-a:link {
-  text-decoration: none;
-}
-
-a:visited {
-  text-decoration: none;
+a {
+    color: var(--link-color);
+    font-family: var(--font-main);
+    cursor: pointer;
+    text-decoration: none;
+    border-bottom: 1.5px solid #ff0000;
 }
 
 a:hover {
-  text-decoration: underline;
+    background-color: var(--main-color);
+    color: white;
+    text-decoration: none;
 }
 
-a:active {
-  text-decoration: underline;
+header {
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 3px dotted #232333;
+}
+
+nav a {
+    margin-right: 8px;
+}
+
+strong,
+b {
+    color: var(--heading-color);
+}
+
+button {
+    margin: 0;
+    cursor: pointer;
+}
+
+main {
+    line-height: 1.6;
+}
+
+table {
+    width: 100%;
+}
+
+hr {
+    border: 0;
+    border-top: 1px dashed;
+}
+
+img {
+    max-width: 100%;
+}
+
+code {
+    font-family: monospace;
+    padding: 2px;
+    background-color: var(--code-background-color);
+    color: var(--code-color);
+    border-radius: 3px;
+}
+
+blockquote {
+    border-left: 1px solid #999;
+    color: var(--code-color);
+    padding-left: 20px;
+    font-style: italic;
+}
+
+footer {
+    margin-top: 40px;
+    border-top: 2px dotted #232333;
+    padding: 25px 0;
+    text-align: left;
+}
+
+.title:hover {
+    text-decoration: none;
+}
+
+.title h1 {
+    font-size: 1.5em;
+}
+
+.inline {
+    width: auto !important;
+}
+
+.highlight,
+.code {
+    padding: 1px 15px;
+    background-color: var(--code-background-color);
+    color: var(--code-color);
+    border-radius: 3px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    overflow-x: auto;
+}
+
+/* blog post list */
+ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+}
+
+ul.blog-posts li {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+i time {
+    font-style: normal;
+    opacity: 0.7;
+}
+
+ul.blog-posts li span {
+    flex: 0 0 150px;
+}
+
+
+ul.blog-posts li a:visited {
+    color: var(--visited-color);
+}
+
+table {
+    border-spacing: 0;
+}
+
+th,
+td {
+    padding: 6px 13px;
+    border: 1px solid #dfe2e5;
+    font-size: 1em;
 }
