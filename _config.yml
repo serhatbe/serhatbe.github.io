@@ -1,4 +1,5 @@
 title: Serhat Beyenir # name of the site
+url: https://serhatbe.github.io/ # root address of the site
 plugins:
   - jekyll-relative-links
 relative_links:
@@ -15,3 +16,9 @@ include:
   - PULL_REQUEST_TEMPLATE.md
 
 remote_theme: riggraz/no-style-please
+
+theme_config:
+  appearance: "auto" # can be "light", "dark" or "auto"
+  back_home_text: ".." # customize text for homepage link in post layout
+  date_format: "%Y-%m-%d" # customize how date is formatted
+  show_description: false # show blog description in home page
