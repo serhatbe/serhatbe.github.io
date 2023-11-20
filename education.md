@@ -1,4 +1,4 @@
-# [Serhat Beyenir](index.md)
+# [..](index.md)
 
 ## Education
 
