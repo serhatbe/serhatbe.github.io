@@ -1,6 +1,3 @@
-
-## Education
-
 - Master of Education
 - Provincial Instructor Diploma
 - Bachelor of Science (Marine Engineering)

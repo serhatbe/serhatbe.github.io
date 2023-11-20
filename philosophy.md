@@ -1,5 +1,3 @@
-
-## Teaching Philosophy
 I believe that the college period is a significant phase in one’s life. Not only because we get a job after graduation but probably more importantly we acquire essential life skills at school. My primary goal is therefore to help my students to make the best of this period in their lives.
 
 ## Teaching
