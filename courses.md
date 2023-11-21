@@ -1,6 +1,4 @@
-### Courses
-
-#### Marine Engineering
+### Marine Engineering
 Currently, I am teaching Transport Canada accredited courses to Marine Engineering Cadets and upgrading Marine Engineers at the BCIT Marine Campus in North Vancouver.
 
 #### Power & Process Engineering
