@@ -2,14 +2,12 @@
 Currently, I am teaching Transport Canada accredited courses to Marine Engineering Cadets and upgrading Marine Engineers at the BCIT Marine Campus in North Vancouver.
 
 ### Power & Process Engineering
-
 - Thermal Power Plant Simulator
 - Heat Transfer
 - Engineering Laboratory
 - Computer Technology
 
 ### Power Engineering
-
 - Fifth Class ONLINE
 - Refrigeration Plant Operator ONLINE
 - Fourth Class Part A ONLINE
