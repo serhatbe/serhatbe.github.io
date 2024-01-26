@@ -1,5 +1,5 @@
 ### Marine Engineering
-Currently, I am teaching Transport Canada accredited courses to Marine Engineering Cadets and upgrading Marine Engineers at the BCIT Marine Campus in North Vancouver.
+Currently, I am teaching Marine Engineering courses at the BCIT Marine Campus in North Vancouver.
 
 #### Power & Process Engineering
 - Thermal Power Plant Simulator
@@ -30,4 +30,3 @@ Currently, I am teaching Transport Canada accredited courses to Marine Engineeri
 - First Class Part B – Paper 2 CORR
 - First Class Part B – Paper 3 CORR
 - First Class Part B – Paper 4 CORR
-
