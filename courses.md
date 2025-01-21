@@ -31,4 +31,6 @@ Currently, I am teaching Marine Engineering courses at the BCIT Marine Campus in
 - First Class Part B – Paper 3 CORR
 - First Class Part B – Paper 4 CORR
 
-$$f(x) = \int_{-\infty}^\infty \hat f(\xi)\,e^{2 \pi i \xi x} \,d\xi$$
+$$
+f(x) = \int_{-\infty}^\infty \hat f(\xi)\,e^{2 \pi i \xi x} \,d\xi
+$$
