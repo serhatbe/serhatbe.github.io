@@ -3,3 +3,5 @@ I believe that the college period is a significant phase in one’s life. Not on
 
 #### Continuum
 I consider mastering a profession as a continuum, not through a series of schooling that terminate after completing a vocational school or college program. Thus, I promote life-long learning by attempting to transition my students from their time with me to their next learning endeavor. Ingrained in my courses are the elements of self-directed and web-based learning both of which, I hope, will help my students to construct their own learning paths. 
+
+$$f(x) = \int_{-\infty}^\infty \hat f(\xi)\,e^{2 \pi i \xi x} \,d\xi$$
