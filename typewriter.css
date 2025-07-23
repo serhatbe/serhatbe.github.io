@@ -1,0 +1,183 @@
+/* Import IBM Plex Mono font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+
+/* Basic styling for the HTML output */
+body {
+    /* Use a monospaced font stack, prioritizing IBM Plex Mono */
+    font-family: 'IBM Plex Mono', Courier, monospace;
+
+    /* Restrict body content width for better readability */
+    max-width: 800px;
+
+    /* Center the body content horizontally */
+    margin: 0 auto;
+
+    /* Add space inside the body content */
+    padding: 20px;
+
+    /* Set comfortable line height for readability */
+    line-height: 1.6;
+
+    /* Enable automatic hyphenation of words */
+    hyphens: auto;
+
+    /* Allow long words to break to prevent overflow */
+    word-break: break-word;
+
+    /* Ensure wrapping works properly in all browsers */
+    overflow-wrap: break-word;
+}
+
+/* Styling for all heading levels */
+h1, h2, h3 {
+    /* Make headings uppercase */
+    text-transform: uppercase;
+
+    /* Remove bold weight */
+    font-weight: normal;
+
+    /* Add slight spacing between letters */
+    letter-spacing: 0.05em;
+}
+
+/* Main title (H1) */
+h1 {
+    /* Set larger font size */
+    font-size: 2.5em;
+
+    /* Center the title text */
+    text-align: center;
+}
+
+/* Section title (H2) */
+h2 {
+    /* Slightly smaller than H1 */
+    font-size: 2em;
+
+    /* Also center the text */
+    text-align: center;
+}
+
+/* Subsection title (H3) */
+h3 {
+    /* Smaller heading size */
+    font-size: 1.75em;
+
+    /* Align text to the left */
+    text-align: left;
+}
+
+/* Style paragraphs and divs with first-line indentation */
+p, div {
+    /* Indent first line by 2em */
+    text-indent: 2em;
+}
+
+/* Remove indent from the first paragraph and any paragraph directly after a heading */
+h1 + p, h2 + p, h3 + p, p:first-of-type {
+    text-indent: 0;
+}
+
+/* Style unordered and ordered lists */
+ul, ol {
+    /* Add space to the left for bullets or numbers */
+    padding-left: 3em;
+
+    /* Align lists with the start of their container (in flex layouts) */
+    align-self: flex-start;
+}
+
+/* Style list items */
+li {
+    /* Slight indent to match paragraph style */
+    text-indent: 0.5em;
+
+    /* Ensure bullets/numbers appear outside the text */
+    list-style-position: outside;
+}
+
+/* Style links */
+a {
+    /* Inherit the color from surrounding text */
+    color: inherit;
+
+    /* Remove the default underline */
+    text-decoration: none;
+
+    /* Add a dashed underline for visual feedback */
+    border-bottom: 1px dashed;
+}
+
+/* Style horizontal rules */
+hr {
+    /* Remove default border */
+    border: none;
+
+    /* Add large vertical spacing */
+    margin: 5em 0;
+
+    /* Center any pseudo-content */
+    text-align: center;
+}
+
+/* Add decorative dashes to the horizontal rule */
+hr::before {
+    /* Simulate a long dashed line */
+    content: "----------------------------------------";
+
+    /* Space out the dashes slightly */
+    letter-spacing: 0.1em;
+
+    /* Light gray color for a subtle appearance */
+    color: #e0e0e0;
+}
+
+/* Style blockquotes */
+blockquote {
+    /* Add vertical spacing */
+    margin: 1rem 0;
+
+    /* Indent the whole quote */
+    padding-left: 1.5rem;
+
+    /* Remove default left border */
+    border-left: none;
+
+    /* Allow absolute positioning inside */
+    position: relative;
+}
+
+/* Add a visual quote marker */
+blockquote::before {
+    /* Use a greater-than symbol as a blockquote marker */
+    content: ">";
+
+    /* Match surrounding text size */
+    font-size: 1em;
+
+    /* Position the marker absolutely in top-left corner */
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/* APA-style hanging indent for bibliography container */
+.csl-bib-body {
+    /* Add vertical spacing around the bibliography */
+    margin: 1em 0;
+
+    /* Remove internal padding */
+    padding: 0;
+}
+
+/* APA-style formatting for each reference entry */
+.csl-entry {
+    /* Add spacing between entries */
+    margin-bottom: 1em;
+
+    /* Pull the first line to the left for hanging indent */
+    text-indent: -2em;
+
+    /* Push remaining lines to the right to complete hanging indent */
+    padding-left: 2em;
+}
