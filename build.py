@@ -7,12 +7,12 @@ import html
 
 # ───── Configuration ─────
 CONTENT_DIR = "content"
+INTRO_MD = os.path.join(CONTENT_DIR, "intro.md")
 CSS_FILE = "typewriter.css"
 BIB_FILE = "refs.json"
 CSL_FILE = "apa.csl"
 FRAG_DIR = "fragments"
 FINAL_HTML = "volumen.html"
-INTRO_MD = "intro.md"
 TITLE = "Volūmen"
 GENERATOR = "pandoc 3.7.0.2"
 VIEWPORT = "width=device-width, initial-scale=1.0, user-scalable=yes"
@@ -66,7 +66,12 @@ else:
 
 # ───── Process all .md files into fragments ─────
 md_files = sorted(glob.glob(os.path.join(CONTENT_DIR, "*.md")), reverse=True)
-md_files = [f for f in md_files if not os.path.basename(f).startswith("README") and os.path.basename(f) != INTRO_MD]
+md_files = [
+    f
+    for f in md_files
+    if not os.path.basename(f).startswith("README")
+    and os.path.abspath(f) != os.path.abspath(INTRO_MD)
+]
 
 fragment_paths = []
 toc_entries = []
