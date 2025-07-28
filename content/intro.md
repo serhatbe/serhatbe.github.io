@@ -1,0 +1,1 @@
+Volūmen is a personal repository where I occasionally post my notes. However, I primarily use notebooks and write by hand to process my thoughts. The term volūmen is Latin for "scroll," referring to a rolled manuscript. In Roman times, a volūmen (plural: volūmina) was the standard form of written text before the codex i.e. bound book became widespread.
