@@ -9,7 +9,7 @@
 - ISO 9001:2015 Internal Auditor – British Standards Institution, 2021  
 - Kongsberg Thermal Power Plant Simulator Instructor – Kalmar Maritime Academy, Sweden, 2014  
 - Kongsberg Propulsion Plant Simulator Instructor – BCIT Marine Campus, Canada, 2001  
-- First Class Marine Engineer – Transport Canada, 2000  
+- Chief Engineer – STCW III/2 – Transport Canada, 2000  
 
 ### Interests
 - Web-based distance education  
