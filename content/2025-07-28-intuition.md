@@ -1,6 +1,6 @@
 ---
-title: Quick Judgments
-date: 2025-07-28
+title: Intuition
+date: 2025-07-31
 tags:
   - psychology
 description: A few things worth noting.
