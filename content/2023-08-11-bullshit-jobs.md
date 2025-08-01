@@ -14,7 +14,7 @@ tags:
 
 A bullshit job is one that even the person doing it secretly believes need not, or should not, exist. That if the job, or even the whole industry, were to vanish, either it would make no difference to anyone, or the world might even be a slightly better place.
 
-David Graeber @graeberBullshitJobsTheory2018 []lists five different categories of job types: flunkies (whose job is to make the boss feel good), goons (such as corporate lobbyists whose job is to fight goons from other companies), duct tapers (who fix errors), box tickers (people who use paperwork or gestures to make it seem like they are busy) and taskmasters (people who manage but are unneeded). These jobs exist because people do not want to be accused of being lazy; modern managers want to justify their jobs and to create a sense of corporate feudalism. There are five types of bullshit jobs:
+David Graeber lists five different categories of job types @graeberBullshitJobsTheory2018 []:
 
 1. Flunkies, who serve to make their superiors feel important, e.g., receptionists, administrative assistants, door attendants, store greeters, makers of websites whose sites neglect ease of use and speed for looks;
 2. Goons, who act to harm or deceive others on behalf of their employer, e.g., lobbyists, corporate lawyers, telemarketers, public relations specialists, community managers;
