@@ -107,7 +107,7 @@ for md_file in md_files:
     with open(temp_md_path, "w", encoding="utf-8") as tmp:
         tmp.write(f"# {title} {{#{anchor}}}\n")
         if date:
-            tmp.write(f"Last update: {date}\n\n")
+            tmp.write(f"{date}\n\n")
         tmp.write(body)
         tmp.write("\n\n::: {{#refs}}\n:::\n")
 
@@ -162,7 +162,7 @@ with open(FINAL_HTML, "w", encoding="utf-8") as index:
             index.write(frag.read())
             index.write("\n<hr>\n")
 
-    index.write("<h4>Index</h4>\n<ul>\n")
+    index.write("<h1>Index</h1>\n<ul>\n")
     for title, anchor in toc_entries:
         index.write(f'<li><a href="#{anchor}">{html.escape(title)}</a></li>\n')
     index.write("</ul>\n</body>\n</html>\n")
