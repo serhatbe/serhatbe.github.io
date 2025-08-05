@@ -1,7 +1,10 @@
+/* Import Courier Prime font from Google Fonts */ 
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+
 /* Base body styling */
 body {
-    font-family: Courier, monospace;
-    font-size: 1.25em;              /* Increased for better readability */
+    font-family: 'Courier Prime', Courier, monospace;
+    font-size: 1.1em;              /* Increased for better readability */
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
