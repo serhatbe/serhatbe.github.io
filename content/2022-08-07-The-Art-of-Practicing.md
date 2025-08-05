@@ -17,8 +17,8 @@ The Art of Practicing by [@bruserArtPracticingGuide1999] contains wisdom and pra
 1. Stretch
 2. Settle down in your environment: Be present, correct posture, breathing.
 3. Tune into your heart: Recalling profound feelings is how to tune into your heart.
-4. Use your body in a comfortable and natural way. Mechanics, habits and emotions… 
-5. Follow your curiosity as you practice. 
+4. Use your body in a comfortable and natural way. Mechanics, habits and emotions…
+5. Follow your curiosity as you practice.
 6. Recognize three styles of struggle:
     1. Overstated passion, in which we cling to the music.
     2. Avoidance, in which we resist dealing with the music.
@@ -36,7 +36,7 @@ The Art of Practicing by [@bruserArtPracticingGuide1999] contains wisdom and pra
 1. Relax, tension is your worst enemy
 2. Hear the music you're playing
 3. Be gentle to yourself
-4. Do not over practice, short mindful work is superior to long laboured practice sessions. 
+4. Do not over practice, short mindful work is superior to long laboured practice sessions.
 
 ## Miscellaneous Notes
 
