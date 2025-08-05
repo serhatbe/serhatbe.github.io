@@ -8,6 +8,8 @@ tags:
 date: 2022-08-07
 ---
 
+## One Sentence Summary
+
 The Art of Practicing by [@bruserArtPracticingGuide1999] contains wisdom and practical advise. Performance as a practice see page 216.
 
 ## A Ten-Step Approach
@@ -42,4 +44,4 @@ The Art of Practicing by [@bruserArtPracticingGuide1999] contains wisdom and pra
 - Focus on more on the sensations of touch and movement and use your vision mainly to check that what you feel is in accord with what you see. @bruserArtPracticingGuide1999 [200].
 - Think the sound you make. Then discover the sensation your brain has created for you. @bruserArtPracticingGuide1999 [201].
 
-### Reference
+## Reference
