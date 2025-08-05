@@ -8,9 +8,9 @@ tags:
   - life
 ---
 
-To begin, you require only a book, a pen, and time. While additional tools may appear beneficial, they can be counterproductive, resulting in negative utility. These tools do not accelerate your work; rather, they consume as much time as you are willing to expend on them.
+To begin, you require only a book, a pen, and time. While additional tools may appear beneficial, they can be counterproductive, resulting in negative utility. These tools do not accelerate your work; rather, they consume as much time as you are willing to expend on them. The essence of productivity lies in performing the work itself. 
 
-The essence of productivity lies in performing the work itself. This is the only productivity advice you need and the most valuable guidance you will receive.
+> Work expands to fill the time available for its completion (Parkinson’s law)
 
 You could divert your attention to numerous optimizations, such as managing email, scheduling meetings, organizing notes, maintaining calendars, tracking time, setting goals, creating to-do lists, estimating time requirements, applying prioritization frameworks, using quantified self-sensors, analyzing data, adopting apps, managing documents, or journaling.
 
